@@ -1,11 +1,3 @@
-body {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin: 0 auto;
-    height: 100vh;
-}
-
 .showcase {
     position: relative;
   }
@@ -37,5 +29,6 @@ header {
 
 img {
     opacity: 0.5;
+
 
 }
