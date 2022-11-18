@@ -1,0 +1,17 @@
+p {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+h1 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+header {
+    text-align: center;
+    background-color:darkgoldenrod;
+    position: absolute;
+    bottom: 0;
+    width: 99%;
+    height: 20px;
+    color: black;
+}
