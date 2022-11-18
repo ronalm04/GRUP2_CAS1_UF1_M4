@@ -12,3 +12,7 @@ header {
     background-color:darkgoldenrod;
     color: black;
 }
+
+img {
+    opacity: 1;
+}
