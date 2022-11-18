@@ -9,9 +9,5 @@ h1 {
 header {
     text-align: center;
     background-color:darkgoldenrod;
-    position: absolute;
-    bottom: 0;
-    width: 99%;
-    height: 20px;
-    color: black;
+    color: white;
 }
