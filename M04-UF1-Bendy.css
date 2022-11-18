@@ -1,21 +1,3 @@
-.contenidor {
-    position: relative;
-    display: inline-block;
-}
-
-.text {
-    position: absolute;
-    top: 10px;
-    left: 10px;
-}
-
-.centrat {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-}
-
 p {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
@@ -35,4 +17,22 @@ img {
     opacity: 0.5;
 
 
+}
+
+.contenidor {
+    position: relative;
+    display: inline-block;
+}
+
+.text {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+}
+
+.centrat {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
