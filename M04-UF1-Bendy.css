@@ -1,9 +1,11 @@
 p {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: darkgoldenrod;
 }
 
 h1 {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: darkgoldenrod;
 }
 
 header {
@@ -20,13 +22,3 @@ img {
 
 
 }
-
-.contenidor {
-    position: relative;
-    display: inline-block;
-}
-
-.text {
-    position: absolute;
-    top: 10px;
-    left: 10px;
