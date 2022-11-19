@@ -1,12 +1,16 @@
-
+@font-face {
+    font-family: 'HollowKnight';
+    src: url(Supernatural_Knight.ttf);
+    font-weight: normal;
+    font-style: normal;
+}
 /*Pagina Hollow Kngith*/
 .BotoPaginaPrincipal{
-    background-color: gold;
+    background-color: cadetblue;
     text-align: center;
 }
 .TitulHollowKnight{
     
-    background-color: white;
     color: black;
     text-align: center;
     font-family: 'HollowKnight';
