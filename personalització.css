@@ -1,0 +1,32 @@
+@font-face {
+    font-family: 'HollowKnight';
+    src: url(Supernatural_Knight.ttf);
+    font-weight: normal;
+    font-style: normal;
+}
+/*Pagina Hollow Kngith*/
+.BotoPaginaPrincipal{
+    background-color: cadetblue;
+    text-align: center;
+    filter:alpha(opacity=100);
+    -moz-opacity:1;opacity:1;
+}
+.TitulHollowKnight{
+    
+    color: black;
+    text-align: center;
+    font-family: 'HollowKnight';
+}
+.Taula{
+    margin: auto;
+    border-collapse: collapse;
+    background-color: black;
+    text-align: center;
+    font-family: 'HollowKnight';
+    color: aqua;
+    
+}
+.FichaTecnica{
+    background-color: grey;
+    
+}
