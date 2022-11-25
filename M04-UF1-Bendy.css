@@ -1,30 +1,32 @@
-p {
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    color: darkgoldenrod;
+@font-face {
+    font-family: 'Font-Bendy';
+    src: url(CaviarDreams.ttf);
+    font-weight: normal;
+    font-style: normal;
 }
-
-h1 {
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    color: darkgoldenrod;
-}
-
-header {
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+/*Pagina Hollow Kngith*/
+.BotoPaginaPrincipal{
+    background-color: rgb(236, 176, 24);
     text-align: center;
-    background-color:darkgoldenrod;
+    filter:alpha(opacity=100);
+    -moz-opacity:1;opacity:1;
+}
+.TitulHollowKnight{
+    
     color: black;
+    text-align: center;
+    font-family: 'HollowKnight';
 }
-
-img {
-    backgroun
-    padding: 0%;
-    opacity: 0.5;
-
-
+.Taula{
+    margin: auto;
+    border-collapse: collapse;
+    background-color: black;
+    text-align: center;
+    font-family: 'HollowKnight';
+    color: goldenrod;
+    
 }
-
-table, th, td {
-    border: 1px solid white;
-    color: darkgoldenrod;
-    font-family: verdana;
-  }
+.FichaTecnica{
+    background-color: grey;
+    
+}
