@@ -38,3 +38,8 @@ footer{
     left:0;
     width:100%;
 }
+@media (max-width: 768px){
+.logoxbox{
+    align-items: left;
+}
+}
