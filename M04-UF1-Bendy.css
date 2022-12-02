@@ -5,6 +5,18 @@
     font-style: normal;
 }
 /*Pagina Bendy and the Dark Revival*/
+p {
+    font-family: 'Font-Bendy';
+    color: darkgoldenrod;
+    font-size: large;
+}
+
+ul {
+    font-family: 'Font-Bendy';
+    color: darkgoldenrod;
+    font-size: large;
+}
+
 .BotoPaginaPrincipal{
     background-color: darkgoldenrod;
     text-align: center;
@@ -17,23 +29,31 @@
 
 .flex-container {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
+    margin: 10px;
+    padding: 20px;
+    font-size: 30px;
+    
 }
 
 .Requadre1 {
     padding: 20px;
-    width: 600px;
-    height: 200px;
-    text-align: left;
-}
-
-.Requadre2 {
-    padding: 0px;
-    margin-right: 20%;
-    margin-left: 20%;
+    margin-right: 50px;
+    margin-left: 50px;
     width: 600px;
     height: 600px;
     text-align: left;
+    background-color: darkgoldenrod;
+}
+
+.Requadre2 {
+    padding: 20px;
+    margin-right: 20%;
+    margin-top : -20%;
+    margin-left: 50%;
+    width: 600px;
+    height: 600px;
+    text-align: center;
 }
 
 .TitolBATDR{
@@ -60,7 +80,7 @@ footer {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     text-align: center;
     height: 40px;
-    margin-top: 20%;
+    margin-top: 30%;
     line-height: 30px;
 
 }
