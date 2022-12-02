@@ -1,0 +1,48 @@
+
+
+@font-face {
+    font-family: 'Font-Bendy';
+    src: url(CaviarDreams_Bold.ttf);
+    font-weight: normal;
+    font-style: normal;
+}
+/*Pagina Bendy and the Dark Revival*/
+.BotoPaginaPrincipal{
+    background-color: darkgoldenrod;
+    text-align: center;
+    margin-top: -3%;
+    margin-left: -2%;
+    margin-right: -1%;
+    filter:alpha(opacity=100);
+    -moz-opacity:1;opacity:1;
+}
+.TitolBATDR{
+    text-align: center;
+}
+.Taula{
+    margin: auto;
+    border-collapse: collapse;
+    background-color: black;
+    text-align: center;
+    font-family: 'Font-Bendy';
+    color: darkgoldenrod;
+    padding: 20%;
+    
+}
+.FichaTecnica{
+    background-color: grey;
+    
+}
+
+footer {
+    background-color: darkgoldenrod;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+
+}
+
+.TrailerBATDR {
+    align: center;
+    padding: 1%;
+    margin-left: 30%;
+}
