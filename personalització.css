@@ -18,10 +18,10 @@
 .Taula1{
     margin: auto;
     border-collapse: collapse;
-    background-color: aquamarine;
+    background-color: darkcyan;
     text-align: center;
     font-family: 'SAO';
-    color: black;
+    color: white;
     padding: 20%;
     font-size: x-large;
 }
@@ -33,10 +33,10 @@
 .Taula2{
     margin: auto;
     border-collapse: collapse;
-    background-color: aquamarine;
+    background-color: blue;
     text-align: center;
     font-family: 'SAO';
-    color: black;
+    color: white;
     padding: 20%;
     font-size: x-large;
 }
