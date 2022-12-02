@@ -15,13 +15,13 @@
     text-align: center;
 }
 
-.Taula{
+.Taula1{
     margin: auto;
     border-collapse: collapse;
     background-color: aquamarine;
     text-align: center;
     font-family: 'HollowKnight';
-    color: white;
+    color: black;
     padding: 20%;
 }
 .FichaTecnica{
@@ -29,10 +29,20 @@
     border: 2px ;
     color: white
 }
+.Taula2{
+    margin: auto;
+    border-collapse: collapse;
+    background-color: aquamarine;
+    text-align: center;
+    font-family: 'HollowKnight';
+    color: black;
+    padding: 20%;
+}
 .FichaRequisits{
     background-color: grey;
     border: 2px ;
-    color: white
+    color: white;
+    
 }
 footer{
     /*height:50px;
