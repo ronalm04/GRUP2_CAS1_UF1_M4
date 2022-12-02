@@ -23,6 +23,7 @@ ul {
     margin-top: -3%;
     margin-left: -2%;
     margin-right: -1%;
+    height: 70px;
     filter:alpha(opacity=100);
     -moz-opacity:1;opacity:1;
 }
@@ -49,7 +50,7 @@ ul {
 .Requadre2 {
     padding: 20px;
     margin-right: 20%;
-    margin-top : -20%;
+    margin-top : -50%;
     margin-left: 50%;
     width: 600px;
     height: 600px;
