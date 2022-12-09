@@ -101,3 +101,57 @@ footer {
     align: center;
     padding: 1%;
 }
+
+@media (max-width: 500px) {
+
+    p {
+        font-family: 'Font-Bendy';
+        color: darkgoldenrod;
+        font-size: small;
+    }
+    
+    ul {
+        font-family: 'Font-Bendy';
+        color: darkgoldenrod;
+        font-size: small;
+    }
+
+    .BotoPaginaPrincipal{
+        background-color: darkgoldenrod;
+        text-align: center;
+        margin-top: -1.5%;
+        margin-left: -2%;
+        margin-right: -1%;
+        height: 70px;
+        filter:alpha(opacity=100);
+        -moz-opacity:1;opacity:1;
+    }
+
+    .flex-container {
+        display: flex;
+        flex-direction: row;
+        margin: 10px;
+        padding: 20px;
+        font-size: 30px;
+        
+    }
+
+    .Requadre1 {
+        width: 600px;
+        height: 600px;
+        text-align: center;
+    }
+    
+    .Requadre2 {
+        padding: 20px;
+        width: 600px;
+        height: 600px;
+        text-align: center;
+    }
+
+
+
+
+
+
+}
