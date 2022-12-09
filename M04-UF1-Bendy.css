@@ -139,7 +139,16 @@ footer {
     .Requadre1 {
         width: 600px;
         height: 600px;
-        text-align: center;
+        text-align: left;
+        align: left;
+        margin-left: -10%;
+    }
+
+    .FichaTecnica{
+        background-color: darkgoldenrod;
+        color: black;
+        margin: -100%;
+        
     }
     
     .Requadre2 {
@@ -147,6 +156,17 @@ footer {
         width: 600px;
         height: 600px;
         text-align: center;
+    }
+
+    footer {
+        background-color: darkgoldenrod;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        text-align: center;
+        height: 40px;
+        margin-top: 1%;
+        line-height: 30px;
+        font-size: small;
+    
     }
 
 
