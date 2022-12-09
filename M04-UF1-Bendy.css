@@ -44,7 +44,6 @@ ul {
     width: 600px;
     height: 600px;
     text-align: left;
-    background-color: darkgoldenrod;
 }
 
 .Requadre2 {
@@ -81,7 +80,7 @@ footer {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     text-align: center;
     height: 40px;
-    margin-top: 30%;
+    margin-top: 5%;
     line-height: 30px;
 
 }
@@ -91,4 +90,9 @@ footer {
     padding: 1%;
     margin-left: 0%;
 
+}
+
+.ScreenshotsBATDR {
+    align: center;
+    padding: 1%;
 }
