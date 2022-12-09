@@ -59,12 +59,13 @@ footer{
     width:100%;*/
     text-align: center;
     background-color: cadetblue;
-    position: absolute;
+    position: static;
     margin-block-end: -15%;
     bottom: 0;
     width: 100%;
     height: 50px;
 }
+/*RESPONSIVE*/
 @media (max-width: 768px){
 .logoxbox{
     align-items: left;
@@ -78,4 +79,7 @@ footer{
 .logosteam{
     align-items: left;
 }
+}
+footer{
+    flex-direction: column;
 }
