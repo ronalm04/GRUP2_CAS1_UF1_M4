@@ -40,8 +40,8 @@ ul {
 
 .Requadre1 {
     padding: 20px;
-    margin-right: 50px;
-    margin-left: 50px;
+    margin-right: 20px;
+    margin-left: 10px;
     width: 600px;
     height: 600px;
     text-align: left;
@@ -104,7 +104,7 @@ footer {
     padding: 1%;
 }
 
-@media (max-width: 500px) {
+@media (max-width: 400px) {
 
     p {
         font-family: 'Font-Bendy';
@@ -129,6 +129,19 @@ footer {
         -moz-opacity:1;opacity:1;
     }
 
+    .TitolBATDR{
+        text-align: center;
+        margin-bottom: -10%;
+    }
+
+    .TrailerBATDR {
+        align-items: center;
+        padding: 1%;
+        margin-left: -100%;
+        margin-bottom: 3%;
+        
+    }
+
     .flex-container {
         display: flex;
         flex-direction: row;
@@ -142,15 +155,12 @@ footer {
         width: 380px;
         height: 500px;
         text-align: left;
-        align: left;
-        margin-left: 0%;
     }
 
     .FichaTecnica{
         background-color: darkgoldenrod;
         color: black;
         margin: -100%;
-        
     }
     
     .Requadre2 {
