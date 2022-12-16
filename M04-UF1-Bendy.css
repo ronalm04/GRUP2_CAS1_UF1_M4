@@ -71,7 +71,8 @@ ul {
     text-align: center;
     font-family: 'Font-Bendy';
     color: darkgoldenrod;
-    padding: 20%;
+    padding: 1000%;
+    font-size: medium;
     
 }
 .FichaTecnica{
@@ -138,11 +139,11 @@ footer {
     }
 
     .Requadre1 {
-        width: 600px;
-        height: 600px;
+        width: 380px;
+        height: 500px;
         text-align: left;
         align: left;
-        margin-left: -10%;
+        margin-left: 0%;
     }
 
     .FichaTecnica{
