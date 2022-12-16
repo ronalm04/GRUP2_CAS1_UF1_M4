@@ -11,6 +11,11 @@
     margin: 0;
     
 }
+.TextIntroducció{
+    background: rgba(255, 255, 255, 0.75);
+    font-family: 'SAO';
+
+}
 .TitulHollowKnight{
     text-align: center;
 }
@@ -19,7 +24,7 @@
     width: 80%;
     margin: auto;
     border-collapse: collapse;
-    background-color: midnightblue;
+    background: rgba(25, 25, 112, 0.75);
     text-align: center;
     font-family: 'SAO';
     color: white;
@@ -32,6 +37,17 @@
     color: white
 }
 .Taula2{
+    width: 80%;
+    margin: auto;
+    border-collapse: collapse;
+    background-color: midnightblue;
+    text-align: center;
+    font-family: 'SAO';
+    color: white;
+    padding: 20%;
+    font-size: x-large;
+}
+.Taula3{
     width: 80%;
     margin: auto;
     border-collapse: collapse;
@@ -66,6 +82,7 @@ footer{
     height: 50px;
 }
 /*RESPONSIVE*/
+/*FOOTER*/
 @media (max-width: 768px){
 .logoxbox{
     align-items: left;
@@ -83,3 +100,4 @@ footer{
 footer{
     flex-direction: column;
 }
+/*FONDO*/
