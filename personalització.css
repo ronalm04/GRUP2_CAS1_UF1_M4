@@ -1,13 +1,13 @@
 @font-face {
-    font-family: 'HollowKnight';
-    src: url(Supernatural_Knight.ttf);
+    font-family: 'valorantfont';
+    src: url(CaviarDreams_Bold.ttf);
     font-weight: normal;
     font-style: normal;
 }
 /*Pagina Valorant*/
 .BotoPaginaPrincipal{
     background-color: purple ;
-    text-align: center ;
+    text-align: right ;
     margin-top: -1.2%;
     height: 120px;
     margin-left: -11%;
@@ -15,15 +15,24 @@
     margin-block-end: -1%;
     filter:alpha(opacity=100);-moz-opacity:1;opacity:1;
     position: absolute;
-    width: 1900px;
+    width: 2044px;
 }
-
+p {
+    font-family: 'valorantfont';
+    color: black;
+    font-size: large;
+}
+ul {
+    font-family: 'valorantfont';
+    color: darkgoldenrod;
+    font-size: large;
+}
 .TituloValorant{
     
     color: black;
     text-align: center;
     margin-right: -40%;
-    font-family: 'HollowKnight';
+    font-family: 'CaviarDreams_Bold.ttf';
     position: absolute;
     margin-top: -5%;
 }
@@ -32,7 +41,7 @@
     border-collapse: collapse;
     background-color: black;
     text-align: center;
-    font-family: 'HollowKnight';
+    font-family: 'CaviarDreams_Bold.ttf';
     color: white;
 }
 .flex-container {
@@ -47,17 +56,17 @@
             padding: 1%;
             margin-right: -30%;
             margin-left: 1%;
-            width: 500px;
-            height: 400px;
+            width: 800px;
+            height: 450px;
             text-align: left;
             background-color: rgb(167, 102, 231);
-
+            
         }
 .Requadre2 {
             padding: 1%;
             margin-right: -2%;
-            margin-top : -45%;
-            margin-left: 30%;
+            margin-top : -35%;
+            margin-left: 40%;
             width: 100%;
             height: 600px;
             text-align: center;
@@ -65,8 +74,14 @@
 }
 .FichaTecnica{
     background-color: purple;
+    width: 99%;
+    height: 30px;
     
 }
+html {
+    touch-action: manipulation;
+}
+
 footer{
         
         background-color: purple;
@@ -78,7 +93,7 @@ footer{
         line-height: 30%;
         margin-block-end: -30%;
         position: absolute;
-        width: 1900px;
+        width: 2027px;
 
 
 
