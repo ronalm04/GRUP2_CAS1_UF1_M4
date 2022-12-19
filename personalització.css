@@ -23,12 +23,20 @@
 
 }
 .TrailerHollowKnight{
-    text-align: center;
+    position: relative;
+    margin-left: 35%;
 }
 .TitulHollowKnight{
     text-align: center;
 }
-
+.Shade{
+    position: relative;
+    width: 150px;
+    height: 150px;
+    margin-top: -4%;
+    margin-right: -6%;
+    display: block;
+}
 .Taula1{
     width: 80%;
     margin: auto;
