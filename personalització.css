@@ -5,12 +5,11 @@
     font-style: normal;
 }
 /*Pagina Hollow Kngith*/
-
-.BotoPaginaPrincipal{
+.Header{
     background-color: cadetblue;
     text-align: center;
 }
-.TextIntroducció{
+.TextIntroducció{/*PERSONALITZACIÓ DEL TEXT INICIAL*/
     background: rgba(255, 255, 255, 0.75);
     background-size: 5%;
     font-family: 'SAO';
@@ -22,14 +21,7 @@
     padding: 2%;
 
 }
-.TrailerHollowKnight{
-    position: relative;
-    margin-left: 35%;
-}
-.TitulHollowKnight{
-    text-align: center;
-}
-.ImatgeText{
+.ImatgeText{/*PERSONALITZACIÓ IMATGE DEL TEXT INICIAL*/
     position: relative;
     width: 200px;
     height: 200px;
@@ -37,23 +29,19 @@
     margin-right: -1%;
     display: block;
 }
-.Taula1{
-    width: 80%;
-    margin: auto;
-    border-collapse: collapse;
-    background: rgba(25, 25, 112, 0.75);
-    text-align: center;
-    font-family: 'SAO';
-    color: white;
-    padding: 20%;
-    font-size: x-large;
+.TrailerHollowKnight{/*PERSONALITZACIÓ TRAILER*/
+    position: relative;
+    margin-left: 35%;
 }
-.FichaTecnica{
+.TitulHollowKnight{/*PERSONALITZACIÓ IMATGE TITOL*/
+    text-align: center;
+}
+.FitxaTecninca{/*PERSONALITZACIOÓ CASELLES FITXA TECNICA*/
     background-color: grey;
     border: 2px ;
     color: white
 }
-.Taula2{
+.Taula1{/*PERSONALITZACIÓ TAULA FITXA TECNICA*/
     width: 80%;
     margin: auto;
     border-collapse: collapse;
@@ -64,38 +52,41 @@
     padding: 20%;
     font-size: x-large;
 }
-.Taula3{
-    width: 80%;
-    margin: auto;
-    border-collapse: collapse;
-    background: rgba(25, 25, 112, 0.75);
-    text-align: center;
-    font-family: 'SAO';
-    color: white;
-    padding: 20%;
-    font-size: x-large;
-}
-.FichaRequisits{
+.FichaRequisits{/*PERSONALITZACIÓ CASELLES TAULES REQUISITS*/
     background-color: grey;
     border: 2px ;
     color: white;
     
 }
-.ImatgesJoc{
+.Taula2{/*PERSONALITZACIÓ TAULA REQUISITIS MINIMS*/
+    width: 80%;
+    margin: auto;
+    border-collapse: collapse;
+    background: rgba(25, 25, 112, 0.75);
+    text-align: center;
+    font-family: 'SAO';
+    color: white;
+    padding: 20%;
+    font-size: x-large;
+}
+.Taula3{/*PERSONALITZACIÓ TAULA REQUISITS RECOMANATS*/
+    width: 80%;
+    margin: auto;
+    border-collapse: collapse;
+    background: rgba(25, 25, 112, 0.75);
+    text-align: center;
+    font-family: 'SAO';
+    color: white;
+    padding: 20%;
+    font-size: x-large;
+}
+.ImatgesJoc{/*PERSONALITZACIÓ IMATGES DEL JOC*/
     text-align: center;
     font-family: 'SAO';
     color: white;
     font-size: xx-large;
 }
-footer{
-    /*height:50px;
-    line-height:50px;
-    background: cadetblue;
-    text-align:center;
-    position:fixed;
-    bottom:0;
-    left:0;
-    width:100%;*/
+footer{/*PERSONALITZACIÓ DEL FOOTER*/
     text-align: center;
     background-color: cadetblue;
     position: static;
@@ -104,9 +95,10 @@ footer{
     width: 100%;
     height: 50px;
 }
+
 /*RESPONSIVE*/
 /*FOOTER*/
-@media (max-width: 768px){
+@media (max-width: 767px){
 .logoxbox{
     align-items: left;
 }
@@ -119,8 +111,24 @@ footer{
 .logosteam{
     align-items: left;
 }
-}
 footer{
     flex-direction: column;
 }
+}
+/*HEADER*/
+@media (max-width: 767px) {
+    .Header{
+      float: none;
+      display: block;
+      text-align: left;
+    }
+}
 /*FONDO*/
+@media (max-width: 767px) {
+
+    .body {
+        background-image: url(FondoPagina.jpg);
+    
+    }
+}
+
