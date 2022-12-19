@@ -22,6 +22,9 @@
     padding: 2%;
 
 }
+.TrailerHollowKnight{
+    text-align: center;
+}
 .TitulHollowKnight{
     text-align: center;
 }
@@ -69,6 +72,12 @@
     border: 2px ;
     color: white;
     
+}
+.ImatgesJoc{
+    text-align: center;
+    font-family: 'SAO';
+    color: white;
+    font-size: xx-large;
 }
 footer{
     /*height:50px;
