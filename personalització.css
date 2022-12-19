@@ -36,7 +36,7 @@
 .TitulHollowKnight{/*PERSONALITZACIÓ IMATGE TITOL*/
     text-align: center;
 }
-.FitxaTecninca{/*PERSONALITZACIOÓ CASELLES FITXA TECNICA*/
+.FitxaTecnica{/*PERSONALITZACIOÓ CASELLES FITXA TECNICA*/
     background-color: grey;
     border: 2px ;
     color: white
@@ -120,7 +120,7 @@ footer{
     .Header{
       float: none;
       display: block;
-      text-align: left;
+      text-align: center;
     }
 }
 /*FONDO*/
@@ -131,4 +131,25 @@ footer{
     
     }
 }
+/*TEXT INICIAL I FOTO INICIAL*/
+/* Por debajo de 700px */
+@media (max-width: 700px){
+    .TextIntroducció{
+    font-size:12px;
+    }
+}
+/* Por debajo de 400px */
+@media (max-width: 400px){
+     .TextIntroducció{
+    font-size:12px;
 
+    }
+}
+/*FOTO*/
+@media (max-width: 767px){
+.ImatgeText{
+    max-width: 100%;
+    width: 200px;
+    height: 200px;
+}
+}
