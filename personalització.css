@@ -85,6 +85,7 @@
     font-family: 'SAO';
     color: white;
     font-size: xx-large;
+   
 }
 footer{/*PERSONALITZACIÓ DEL FOOTER*/
     text-align: center;
@@ -144,12 +145,4 @@ footer{
     font-size:12px;
 
     }
-}
-/*FOTO*/
-@media (max-width: 767px){
-.ImatgeText{
-    max-width: 100%;
-    width: 200px;
-    height: 200px;
-}
 }
