@@ -167,7 +167,7 @@ footer {
     }
 
     .Requadre1 {
-        width: 430px;
+        width: 425px;
         height: 500px;
         text-align: left;
     }
@@ -196,9 +196,9 @@ footer {
         color: darkgoldenrod;
         padding: 1000%;
         font-size: medium;
-        margin-top: 150%;
-        margin-right: 150%;
-        margin-left: 600%;
+        margin-top: 200%;
+        margin-right: 720%;
+        margin-bottom: 100000%;
         
     }
 
