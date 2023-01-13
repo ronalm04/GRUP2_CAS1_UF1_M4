@@ -1,0 +1,27 @@
+@font-face {
+    font-family: 'SAO';
+    src: url(SAOWelcomeTT-Regular.ttf);
+    font-weight: normal;
+    font-style: normal;
+}
+header{
+    text-align: center;
+    background-color: yellow;
+    font-size: large;
+    font-family: 'SAO';
+    font-weight: normal;
+}
+h1{
+    text-align: center;
+   
+}
+footer{
+    height:50px;
+    line-height:50px;
+    background: yellow;
+    text-align:center;
+    position:fixed;
+    bottom:0;
+    left:0;
+    width:100%;
+}
