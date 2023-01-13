@@ -15,21 +15,32 @@ h1{
     text-align: center;
    
 }
-.HollowKnight{
+
+.jocs{
     background: rgba(255, 255, 255, 0.75);
-    background-size: 1%;
+    background-size: 5%;
     font-family: 'SAO';
+    width: 80%;
+    margin: auto;
     border-collapse: collapse;
+    font-size: x-large;
+    text-align: center;
     padding: 2%;
+
 }
-.Valorant{
-    background: rgba(255, 255, 255, 0.75);
-    background-size: 1%;
-    border-collapse: collapse;
-    padding: 2%;
+nav a{
+    text-decoration:none;
+    color:inherit;
+    font-size: x-large;
+    font-family: 'SAO';
+    font-weight: normal;
     
-    
-}
+    } 
+    nav li{
+    display:inline-block;
+    color:black;
+    text-align: center;
+    }
 footer{
     height:50px;
     line-height:50px;
