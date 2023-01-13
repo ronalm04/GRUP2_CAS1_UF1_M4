@@ -131,7 +131,6 @@ footer {
         font-size: small;
     }
 
-
     .BotoPaginaPrincipal{
         background-color: darkgoldenrod;
         text-align: center;
@@ -263,14 +262,6 @@ footer {
         margin-bottom: -10%;
     }
 
-    .TrailerBATDR {
-        align-items: center;
-        padding: 1%;
-        margin-left: -100%;
-        margin-bottom: 3%;
-        
-    }
-
     .flex-container {
         display: flex;
         flex-direction: row;
@@ -306,6 +297,7 @@ footer {
         width: 600px;
         height: 600px;
         text-align: center;
+        
 
     }
 
