@@ -289,7 +289,6 @@ footer {
         
     }
     
-
     .Requadre1 {
         width: 380px;
         height: 500px;
@@ -301,19 +300,13 @@ footer {
         color: black;
         margin: -100%;
     }
-
-    .FichaTecnica2{
-        background-color: black;
-        color: darkgoldenrod;
-        margin-left: 80%;
-        margin-left: -40%;
-    }
     
     .Requadre2 {
         padding: 20px;
         width: 600px;
         height: 600px;
         text-align: center;
+
     }
 
     .RequadreImatge {
