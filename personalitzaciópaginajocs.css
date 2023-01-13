@@ -16,8 +16,19 @@ h1{
    
 }
 .HollowKnight{
-    width: 25%;
-    height: 25%;
+    background: rgba(255, 255, 255, 0.75);
+    background-size: 1%;
+    font-family: 'SAO';
+    border-collapse: collapse;
+    padding: 2%;
+}
+.Valorant{
+    background: rgba(255, 255, 255, 0.75);
+    background-size: 1%;
+    border-collapse: collapse;
+    padding: 2%;
+    
+    
 }
 footer{
     height:50px;
