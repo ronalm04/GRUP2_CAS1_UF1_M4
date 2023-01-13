@@ -94,6 +94,7 @@ footer{/*PERSONALITZACIÓ DEL FOOTER*/
 }
 
 /*RESPONSIVE*/
+
 /*FOOTER*/
 @media (max-width: 767px){
 .logoxbox{
@@ -134,11 +135,16 @@ footer{
     .TextIntroducció{
     font-size:12px;
     }
+    .TitulHollowKnight{
+        width: 50%;
+    }
 }
 /* Por debajo de 400px */
 @media (max-width: 400px){
      .TextIntroducció{
     font-size:12px;
-
+    }
+    .TitulHollowKnight{
+        width: 50%
     }
 }
