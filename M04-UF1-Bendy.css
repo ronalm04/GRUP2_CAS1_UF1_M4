@@ -148,6 +148,32 @@ footer {
         margin-bottom: -10%;
     }
 
+    .Taula{
+        margin: auto;
+        border-collapse: collapse;
+        background-color: black;
+        text-align: center;
+        font-family: 'Font-Bendy';
+        color: darkgoldenrod;
+        padding: 1000%;
+        margin-right: -0%;
+        margin-left: -75%;
+        font-size: small;
+        
+    }
+
+    .FichaTecnica{
+        background-color: darkgoldenrod;
+        color: black;
+        
+    }
+
+    .FichaTecnica2 {
+        background-color: black;
+        color: darkgoldenrod;
+        margin-right: -90%;
+    }
+
     .flex-container {
         display: flex;
         flex-direction: row;
@@ -187,26 +213,7 @@ footer {
         
     }
 
-    .Taula{
-        margin: auto;
-        border-collapse: collapse;
-        background-color: black;
-        text-align: center;
-        font-family: 'Font-Bendy';
-        color: darkgoldenrod;
-        padding: 1000%;
-        font-size: medium;
-        margin-top: 200%;
-        margin-right: 720%;
-        margin-bottom: 100000%;
-        
-    }
 
-    .FichaTecnica{
-        background-color: darkgoldenrod;
-        color: black;
-        margin: -100%;
-    }
 
     .RequadreImatge {
         align: center;
@@ -294,6 +301,13 @@ footer {
         color: black;
         margin: -100%;
     }
+
+    .FichaTecnica2{
+        background-color: black;
+        color: darkgoldenrod;
+        margin-left: 80%;
+        margin-left: -40%;
+    }
     
     .Requadre2 {
         padding: 20px;
@@ -304,6 +318,7 @@ footer {
 
     .RequadreImatge {
         align: center;
+        margin-top: -30%;
 
     }
 
