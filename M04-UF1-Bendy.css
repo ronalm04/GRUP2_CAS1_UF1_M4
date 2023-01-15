@@ -241,7 +241,8 @@ footer {
 
     .RequadreImatge {
         align: center;
-
+        margin-top: -300px;
+        margin-left: -8%;
     }
 
     footer {
@@ -249,11 +250,27 @@ footer {
         font-family: Verdana, Geneva, Tahoma, sans-serif;
         text-align: center;
         height: 40px;
-        margin-top: 1%;
+        margin-top: 70%;
         line-height: 30px;
         font-size: small;
     
     }
+
+    .ScreenshotsBATDR {
+        align: center;
+        padding: 1%;
+        height: 250px;
+        border: 3%;
+        margin-top: -00%;
+    }
+
+    /*.ScreenshotsBATDR2 {
+        align: center;
+        padding: 1%;
+        height: 250px;
+        border: 3%;
+        margin-top: 300%;
+    }*/
 
 }
 
