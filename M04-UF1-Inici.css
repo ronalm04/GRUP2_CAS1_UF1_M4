@@ -14,6 +14,34 @@ p {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
+.flex-container {
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+    padding: 20px;
+    font-size: 30px;
+    
+}
+
+.Requadre1 {
+    padding: 10px;
+    margin-right: 20px;
+    margin-left: 10px;
+    width: 720px;
+    height: 600px;
+    text-align: left;
+}
+
+.Requadre2 {
+    padding: 20px;
+    margin-right: 20%;
+    margin-top : -47%;
+    margin-left: 50%;
+    width: 600px;
+    height: 600px;
+    text-align: center;
+}
+
 nav a{
     text-decoration:none;
     color:inherit;
