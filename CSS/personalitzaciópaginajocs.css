@@ -1,20 +1,34 @@
 @font-face {
     font-family: 'SAO';
-    src: url(Fonts/SAOWelcomeTT-Regular.ttf);
+    src: url(/Fonts/SAOWelcomeTT-Regular.ttf);
     font-weight: normal;
     font-style: normal;
 }
 header{
-    text-align: center;
     background-color: rgb(84, 197, 9);
-    font-size: large;
+    text-align: center;
+
+}
+/*NAV*/
+nav a{
+    text-decoration:none;
+    color:inherit;
+    font-size: x-large;
     font-family: 'SAO';
     font-weight: normal;
-}
-h1{
+    
+    } 
+    nav li{
+    display:inline-block;
+    width:15%;
+    color:black;
     text-align: center;
-   
-}
+    }
+    nav li:hover{
+    background-color:#fff;
+    color:#000;
+    
+    }
 
 .jocs{
     background: rgba(255, 255, 255, 0.75);

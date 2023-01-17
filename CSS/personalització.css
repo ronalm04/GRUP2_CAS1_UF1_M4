@@ -1,14 +1,35 @@
 @font-face {
     font-family: 'SAO';
-    src: url(Fonts/SAOWelcomeTT-Regular.ttf);
+    src: url(/Fonts/SAOWelcomeTT-Regular.ttf);
     font-weight: normal;
     font-style: normal;
 }
 /*Pagina Hollow Kngith*/
-.Header{
+header{
     background-color: cadetblue;
     text-align: center;
+
 }
+/*NAV*/
+nav a{
+    text-decoration:none;
+    color:inherit;
+    font-size: x-large;
+    font-family: 'SAO';
+    font-weight: normal;
+    
+    } 
+    nav li{
+    display:inline-block;
+    width:15%;
+    color:black;
+    text-align: center;
+    }
+    nav li:hover{
+    background-color:#fff;
+    color:#000;
+    
+    }
 .TextIntroducció{/*PERSONALITZACIÓ DEL TEXT INICIAL*/
     background: rgba(255, 255, 255, 0.75);
     background-size: 5%;
