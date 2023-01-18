@@ -18,26 +18,51 @@ h1 {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
+h3 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+li {
+    font-size: large;
+}
+
 .flex-container {
     display: flex;
     flex-direction: column;
     margin: 10px;
     padding: 20px;
+    font-size: 18px;
+    
+}
+
+.flex-container2 {
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+    padding: 20px;
+    font-size: 30px;
     
 }
 
 .Requadre1 {
-    color: black;
     background-color: rgb(70, 201, 127);
-    margin-left: 0%;
-
+    padding: 10px;
+    margin-right: 20px;
+    margin-left: 10px;
+    margin-bottom: -30px;
+    width: 720px;
+    height: 600px;
+    text-align: left;
 }
 
-.Requadre1 {
-    color: black;
-    background-color: rgb(70, 201, 127);
-    margin-left: 0%;
-
+.Requadre2 {
+    padding: 20px;
+    margin-right: 20%;
+    margin-top : -35%;
+    margin-left: 55%;
+    width: 600px;
+    height: 600px;
+    text-align: center;
 }
 
 nav a{
@@ -71,6 +96,7 @@ footer{
     height:50px;
     line-height:50px;
     background: rgb(70, 201, 127);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
     text-align:center;
     position:fixed;
     bottom:0;
@@ -84,4 +110,104 @@ footer{
       float: none;
       display: block;
     }
+}
+
+@media (max-width: 500px) {
+    p  {
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-size: small;
+    }
+    
+    h1 {
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-size: small;
+    }
+    
+    h3 {
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-size: small;
+    }
+    
+    li {
+        font-size: medium;
+    }
+    
+    .flex-container {
+        display: flex;
+        flex-direction: row;
+        margin: 10px;
+        padding: 20px;
+        font-size: 18px;
+        
+    }
+    
+    .flex-container2 {
+        display: flex;
+        flex-direction: row;
+        margin: 10px;
+        padding: 20px;
+        font-size: 30px;
+        
+    }
+    
+    .Requadre1 {
+        background-color: rgb(70, 201, 127);
+        padding: 10px;
+        margin-right: 20px;
+        margin-left: 10px;
+        margin-bottom: -30px;
+        width: 720px;
+        height: 600px;
+        text-align: left;
+    }
+    
+    .Requadre2 {
+        padding: 20px;
+        margin-right: 20%;
+        margin-top : -35%;
+        margin-left: 55%;
+        width: 600px;
+        height: 600px;
+        text-align: center;
+    }
+    
+    nav a{
+        text-decoration:none;
+        color:inherit;
+        font-size: x-large;
+        font-family: 'SAO';
+        font-weight: normal;
+        
+    } 
+    
+    nav li{
+        display:inline-block;
+        width:15%;
+        color:black;
+        text-align: center;
+    }
+        
+    nav li:hover{
+        background-color:#fff;
+        color:#000;
+        
+    }
+    
+    
+    body{
+        background-color: white, 0.1;
+    }
+    
+    footer{
+        height:50px;
+        line-height:50px;
+        background: rgb(70, 201, 127);
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        text-align:center;
+        position:fixed;
+        bottom:0;
+        left:0;
+        width:100%;
+    }
+
 }
