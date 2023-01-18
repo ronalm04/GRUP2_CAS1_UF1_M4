@@ -114,13 +114,13 @@ footer{
 @media (max-width: 500px) {
 
     p {
-        font-family: 'Font-Bendy';
+        font-family: 'valorantfont';
         color: darkgoldenrod;
         font-size: small;
     }
     
     ul {
-        font-family: 'Font-Bendy';
+        font-family: 'valorantfont';
         color: darkgoldenrod;
         font-size: small;
     }
