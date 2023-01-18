@@ -50,9 +50,7 @@ nav a{
     margin-right: -1%;
     display: block;
 }
-.TitulHollowKnight{/*PERSONALITZACIÓ IMATGE TITOL*/
-    text-align: center;
-}
+
 .FitxaTecnica{/*PERSONALITZACIOÓ CASELLES FITXA TECNICA*/
     background-color: grey;
     border: 2px ;
@@ -157,8 +155,10 @@ footer{
     font-size:12px;
     }
     .TitulHollowKnight{
-        width: 50%;
+        max-width: 100%;
+        object-fit: cover;
     }
+
 }
 /* Por debajo de 400px */
 @media (max-width: 400px){
@@ -166,6 +166,7 @@ footer{
     font-size:12px;
     }
     .TitulHollowKnight{
-        width: 50%
+        max-width: 100%;
+        object-fit: cover;
     }
 }
