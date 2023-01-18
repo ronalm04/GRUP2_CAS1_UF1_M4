@@ -1,0 +1,87 @@
+@font-face {
+    font-family: 'SAO';
+    src: url(/Fonts/SAOWelcomeTT-Regular.ttf);
+    font-weight: normal;
+    font-style: normal;
+}
+header{
+    background-color: rgb(70, 201, 127);
+    text-align: center;
+
+}
+/*NAV*/
+p  {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+h1 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.flex-container {
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+    padding: 20px;
+    
+}
+
+.Requadre1 {
+    color: black;
+    background-color: rgb(70, 201, 127);
+    margin-left: 0%;
+
+}
+
+.Requadre1 {
+    color: black;
+    background-color: rgb(70, 201, 127);
+    margin-left: 0%;
+
+}
+
+nav a{
+    text-decoration:none;
+    color:inherit;
+    font-size: x-large;
+    font-family: 'SAO';
+    font-weight: normal;
+    
+} 
+
+nav li{
+    display:inline-block;
+    width:15%;
+    color:black;
+    text-align: center;
+}
+    
+nav li:hover{
+    background-color:#fff;
+    color:#000;
+    
+}
+
+
+body{
+    background-color: white, 0.1;
+}
+
+footer{
+    height:50px;
+    line-height:50px;
+    background: rgb(70, 201, 127);
+    text-align:center;
+    position:fixed;
+    bottom:0;
+    left:0;
+    width:100%;
+}
+
+/*RESPONSIVE*/
+@media (max-width: 767px) {
+    .HeaderPaginaPrincipal{
+      float: none;
+      display: block;
+    }
+}
