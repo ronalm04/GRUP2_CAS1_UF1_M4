@@ -4,13 +4,11 @@
     font-weight: normal;
     font-style: normal;
 }
-/*Pagina Bendy and the Dark Revival*/
 header{
-    background-color: darkgoldenrod;
+    background-color:  darkgoldenrod;
     text-align: center;
 
 }
-/*NAV*/
 nav a{
     text-decoration:none;
     color:inherit;
@@ -30,6 +28,7 @@ nav a{
     color:#000;
     
     }
+/*Pagina Bendy and the Dark Revival*/
 
 p {
     font-family: 'Font-Bendy';
@@ -131,7 +130,7 @@ ul {
 
 footer {
     background-color: darkgoldenrod;
-    font-family: 'Font-Bendy';
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
     text-align: center;
     height: 40px;
     margin-top: 1%;
@@ -266,7 +265,7 @@ footer {
 
     .RequadreImatge {
         align: center;
-        margin-top: -300px;
+        margin-top: -310px;
         margin-left: -8%;
     }
 
@@ -275,7 +274,6 @@ footer {
         font-family: Verdana, Geneva, Tahoma, sans-serif;
         text-align: center;
         height: 40px;
-        margin-top: 70%;
         line-height: 30px;
         font-size: small;
     
@@ -286,15 +284,7 @@ footer {
         padding: 1%;
         height: 250px;
         border: 3%;
-        margin-top: -00%;
+        margin-bottom: 65%;
     }
-
-    /*.ScreenshotsBATDR2 {
-        align: center;
-        padding: 1%;
-        height: 250px;
-        border: 3%;
-        margin-top: 300%;
-    }*/
 
 }
