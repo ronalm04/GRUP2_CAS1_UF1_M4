@@ -145,6 +145,7 @@ footer{
         display: flex;
         flex-direction: row;
         margin: 10px;
+        margin-bottom: -950%;
         padding: 20px;
         font-size: 30px;
         
@@ -154,21 +155,28 @@ footer{
         background-color: rgb(70, 201, 127);
         padding: 10px;
         margin-right: -270%;
-        margin-left: 10px;
+        margin-left: -15px;
         margin-bottom: -30px;
-        width: 720px;
-        height: 600px;
+        width: 380px;
+        height: 400px;
         text-align: left;
     }
     
     .Requadre2 {
         padding: 20px;
-        margin-right: 20%;
-        margin-top : -35%;
-        margin-left: 55%;
+        margin-right: 15%;
+        margin-top : 115%;
+        margin-left: 158%;
         width: 600px;
         height: 600px;
         text-align: center;
+    }
+
+    .ImatgePrincipal {
+        image-resolution: 230px;
+        height: 240px;
+        border: 3%;
+        border-color: rgb(70, 201, 127);;
     }
     
     nav a{
