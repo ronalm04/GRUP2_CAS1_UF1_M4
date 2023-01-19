@@ -120,7 +120,7 @@ footer{
     
     h1 {
         font-family: Verdana, Geneva, Tahoma, sans-serif;
-        font-size: small;
+        font-size: larger;
     }
     
     h3 {
@@ -153,7 +153,7 @@ footer{
     .Requadre1 {
         background-color: rgb(70, 201, 127);
         padding: 10px;
-        margin-right: 20px;
+        margin-right: -270%;
         margin-left: 10px;
         margin-bottom: -30px;
         width: 720px;
