@@ -250,7 +250,6 @@ footer {
         font-family: Verdana, Geneva, Tahoma, sans-serif;
         text-align: center;
         height: 40px;
-        margin-top: 70%;
         line-height: 30px;
         font-size: small;
     
@@ -261,16 +260,8 @@ footer {
         padding: 1%;
         height: 250px;
         border: 3%;
-        margin-top: -00%;
+        margin-bottom: 65%;
     }
-
-    /*.ScreenshotsBATDR2 {
-        align: center;
-        padding: 1%;
-        height: 250px;
-        border: 3%;
-        margin-top: 300%;
-    }*/
 
 }
 
