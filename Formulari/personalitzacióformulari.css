@@ -5,12 +5,12 @@
     font-style: normal;
 }
 header{
-    background-color: rgb(70, 201, 127);
+    background-color:  rgb(70, 94, 201);
     text-align: center;
 
 }
-.TextIntroducció{/*PERSONALITZACIÓ DEL TEXT INICIAL*/
-    background: rgba(255, 255, 255, 0.75);
+.Formulari{
+    background: rgba(50, 126, 214, 0.75);
     background-size: 5%;
     font-family: 'SAO';
     width: 80%;
@@ -19,7 +19,7 @@ header{
     font-size: x-large;
     text-align: center;
     padding: 2%;
-
+    color: white;
 }
 /*NAV*/
 nav a{
@@ -47,7 +47,7 @@ body{
 footer{
     height:50px;
     line-height:50px;
-    background: rgb(70, 201, 127);
+    background: rgb(70, 94, 201);
     text-align:center;
     position:fixed;
     bottom:0;
@@ -61,19 +61,4 @@ footer{
       float: none;
       display: block;
     }
-}
-/*TEXT INICIAL I FOTO INICIAL*/
-/* Por debajo de 700px */
-@media (max-width: 700px){
-    .TextIntroducció{
-    font-size:12px;
-    }
-  
-}
-/* Por debajo de 400px */
-@media (max-width: 400px){
-     .TextIntroducció{
-    font-size:12px;
-    }
-    
 }
