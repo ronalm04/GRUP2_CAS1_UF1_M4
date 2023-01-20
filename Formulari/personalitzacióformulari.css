@@ -33,11 +33,11 @@ nav a{
     nav li{
     display:inline-block;
     width:15%;
-    color:black;
+    color:white;
     text-align: center;
     }
     nav li:hover{
-    background-color:#fff;
+    background-color:rgba(0, 208, 255, 0.575);
     color:#000;
     
     }
