@@ -133,6 +133,9 @@ footer{/*PERSONALITZACIÓ DEL FOOTER*/
 .logosteam{
     align-items: left;
 }
+.TitulHollowKnight{
+    align-items: left;
+}
 footer{
     flex-direction: column;
 }
