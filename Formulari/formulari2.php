@@ -35,7 +35,7 @@ $headers .= "Content-Type: text/plain; charset=UTF-8" . "\r\n";
 // send email
 mail($to,$subject,$msg,$headers);
 
-header('Location: formulari2.html');
+header('Location: /index.html');
 echo <<<HTML
 <html>
 <body>
