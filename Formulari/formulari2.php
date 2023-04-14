@@ -1,6 +1,6 @@
 <?php
 
-$to ="miqueldurangalarzo@gmail.com";
+$to ="";
 
 
 $nom=$_POST['nom'];
